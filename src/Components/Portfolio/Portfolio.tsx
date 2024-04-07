@@ -6,7 +6,10 @@ export default function Portfolio() {
     return (
         <section>
             <h2>Works</h2>
+            <div className="container">
             {PORTFOLIO_DATA.map(port => <Card {...port} /> )}
+            </div>
+
         </section>
     )
 }
