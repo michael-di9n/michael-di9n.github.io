@@ -1,9 +1,13 @@
 import './App.css'
-
+import Header from './Components/Header/Header'
+import Portfolio from './Components/Portfolio/Portfolio'
+import Bio from "./Components/Bio/Bio"
 function App() {
   return (
     <>
-    <h1>Hello World!</h1>
+    <Header />
+    <Portfolio />
+    <Bio />
     </>
   )
 }
