@@ -1,0 +1,9 @@
+.card {
+    width: 100%;
+    align-self: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 5px 5px black;
+}

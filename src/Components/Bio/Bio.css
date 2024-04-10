@@ -1,0 +1,17 @@
+#bio-container {
+    background-color: lightblue;
+    padding: min(20px, 10%);
+    display: flex;
+    flex-direction: column;
+    height: min(50vh, 500px);
+    border-radius: var(--border-rad);
+    align-items: center;
+}
+
+#bioImg {
+    width: min(15vw, 450px);
+    border-radius: 50%;
+    border-style: solid;
+    border-color: burlywood;
+    border-width: 5px;
+}

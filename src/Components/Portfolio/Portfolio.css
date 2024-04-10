@@ -1,0 +1,10 @@
+.portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: min(15px, 5%);
+    justify-content: space-evenly;
+    height: min(90vh, 1000px);
+    background-color: whitesmoke;
+    padding: min(20px, 10%);
+    border-radius: var(--border-rad);
+}

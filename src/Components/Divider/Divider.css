@@ -1,0 +1,8 @@
+.divider {
+    border-style: dotted;
+    border-width: 20px;
+    width: min(var(--col-width-pct), var(--col-width-px));
+    margin: 25px auto;
+    border-color: lightgreen;
+    border-top: none;
+}

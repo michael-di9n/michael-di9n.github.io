@@ -1,0 +1,16 @@
+:root {
+    --col-width-pct: 80%;
+    --col-width-px: 1000px;
+    --border-rad: 20px;
+}
+
+body {
+    margin: 0 min(25px, 5%);
+    background-image: url("./Image/clouds_background.jpg");
+    background-size: 100%;
+}
+
+.centre-column {
+    width: min(var(--col-width-px), var(--col-width-pct));
+    margin: 0 auto;
+}
