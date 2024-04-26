@@ -3,9 +3,11 @@
     padding: min(20px, 10%);
     display: flex;
     flex-direction: column;
-    height: min(50vh, 500px);
+    height: max(50vh, fit-content);
+    width: 85%;
     border-radius: var(--border-rad);
     align-items: center;
+    margin: 0 auto;
 }
 
 #bioImg {
