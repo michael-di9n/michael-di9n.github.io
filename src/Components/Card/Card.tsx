@@ -1,9 +1,10 @@
 import "./Card.css"
+import {ProjectInfo} from "../../Types"
 
-export default function Card({ project, description, image, tools, children, link }:
-    { project: string, description: string, image: { templateImg: string }, tools: string[], children?: React.ReactNode, link: string }) {
+export default function Card({ project, description, image, video, tools, children, link }: ProjectInfo) {
     return (<div className="card g-col-6 g-col-md-4">
-        <img src={image.templateImg} className="card-img-top"></img>
+        {video && <video autoPlay muted loop><source src={video} type="video/mp4"/></video>}
+        {!video && image && <img src={image} className="card-img-top"></img>}
         <div className="card-body">
             <h5 className="card-tite roboto-bold">{project}</h5>
             <p className="card-text roboto-mono">{description}</p>
